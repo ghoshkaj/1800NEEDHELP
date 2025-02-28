@@ -4,3 +4,10 @@ python-dotenv
 twilio
 elevenlabs
 websockets
+sqlalchemy
+alembic
+psycopg2-binary
+geoalchemy2
+haversine
+python-jose[cryptography]
+fastapi[all]

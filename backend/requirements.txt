@@ -1,0 +1,19 @@
+# Web Framework
+fastapi[all]
+uvicorn
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+geoalchemy2
+
+# External Services
+twilio
+elevenlabs
+
+# Utilities
+python-dotenv
+websockets
+haversine
+python-jose[cryptography] 
