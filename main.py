@@ -23,7 +23,7 @@ ELEVEN_LABS_AGENT_ID = os.getenv("AGENT_ID")
 async def root():
     return {"message": "Twilio-ElevenLabs Integration Server"}
 
-@app.api_route("/twilio/inbound_call", methods=["GET", "POST"])
+@app.api_route("/incoming-call", methods=["GET", "POST"])
 async def handle_incoming_call(request: Request):
     """Handle incoming call and return TwiML response."""
     response = VoiceResponse()
